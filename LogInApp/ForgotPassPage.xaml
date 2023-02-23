@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LogInApp.ForgotPassPage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="Center" Spacing="20">
+			<Entry Placeholder="Enter Email" HorizontalOptions="FillAndExpand"></Entry>
+			<Entry Placeholder="Enter New Password" IsPassword="True"></Entry>
+			<Entry Placeholder="Confirm Password" IsPassword="True"></Entry>
+			<Button Text="Submit" x:Name="BtnPass" Clicked="BtnPass_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
