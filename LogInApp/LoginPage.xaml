@@ -4,7 +4,7 @@
              x:Class="LogInApp.LoginPage">
     <ContentPage.Content>
 		<StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="Center" Spacing="10">
-			<Entry Placeholder="Username" x:Name="EntField1" Text="{Binding Username}"></Entry>
+			<Entry Placeholder="Username" x:Name="EntField1" Text="{Binding EntUsername}"></Entry>
 			<Entry IsPassword="True" Placeholder="Password" x:Name="EntField2" Text="{Binding Password}"></Entry>
 			<Button Text="Forgot Password?"  x:Name="BtnForgot" Clicked="BtnForgot_Clicked" HorizontalOptions="End" FontSize="Micro"></Button>
 			<Button Text="Login" x:Name="BtnLogin" Clicked="BtnLogin_Clicked" FontSize="Subtitle"></Button>

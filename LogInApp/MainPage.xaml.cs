@@ -19,5 +19,10 @@ namespace LogInApp
 		{
 			await Navigation.PopAsync();
         }
+
+		async private void BtnName_CLicked(object sender, EventArgs e)
+		{
+		
+		}
     }
 }

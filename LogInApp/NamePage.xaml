@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LogInApp.NamePage">
+	<ContentPage.Content>
+		<StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+				<Label Text="Name Page!"/>
+				<Label x:Name="Label1"/>
+				<Button Text="Back" Clicked="BtnBack_Clicked"></Button>
+			</StackLayout>
+		</ContentPage.Content>
+</ContentPage>
